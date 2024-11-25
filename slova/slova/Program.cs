@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Web;
 
 class TextAnalyzer : StreamReader;
@@ -23,8 +24,34 @@ private TextAnalyzer (string soubor) : base(soubor);
         PocetZnakuSMezeama = obsah.Length;
         PocetZnakuBezMezer = obsah.Count(znak => !char.bileznaky(znak));
 
+        var vsechnaslova = obsah.Split(new[] { ' ', '\t', '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries);
+        PocetSlov = vsechnaslova.Length;
+
+        foreach (var slovo in vsechnaslova)
+        {
+            string slovomale = slovo.ToLower;
+            if slova.ContainsKey(slovomale))
+            {
+                slova[slovomale]++;
+            }
+                
+            else
+            {
+                slova[slovomale] = 1;
+            }
+
+        }
+
 
 
     }
-       
+    catch {FileNotFoundException}
+    {
+        Console.WriteLine($"soubor {'soubor'} neexistuje");
+    }
+    
+    catch { Exception ex}
+    {
+        Console.WriteLine($"chyba při zpracování souboru: {ex.Message}");
+    }
 }
