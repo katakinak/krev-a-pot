@@ -78,3 +78,36 @@ class TextAnalyzer : StreamReader;
     }
     
 }
+class program
+{
+    static void main(string[] args)
+    {
+        string vstupniSoubor = "vstup.txt";
+        string vystupniSoubor = "vystup.txt";
+
+        try
+        {
+            TextAnalyzer analyzer = new TextAnalyzer(vstupniSoubor);
+
+            using (StreamWriter writer = new StreamWriter(vystupniSoubor))
+            {
+                writer.WriteLine($"Počet slov: {analyzer.PocetSlov}");
+                writer.WriteLine($"Počet znaků bez bílých znaků: {analyzer.PocetZnakuBezMezer}");
+                writer.WriteLine($"Počet znaků s bílými znaky: {analyzer.PocetZnakuSMezerama}");
+                writer.WriteLine("\nFrekvence slov:");
+                foreach (var slovo in analyzer.ZiskatFrekvenciSlov())
+                {
+                    writer.WriteLine($"{slovo.Key}: {slovo.Value}");
+                }
+                writer.WriteLine("\nSlova s oddělovači:");
+                writer.WriteLine(analyzer.ziskatslovasoddelovacem());
+            }
+
+            Console.WriteLine("Výstup byl úspěšně uložen.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Chyba: {ex.Message}");
+        }
+    }
+}                    
