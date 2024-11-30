@@ -45,12 +45,12 @@ class TextAnalyzer : StreamReader;
 
 
         }
-        catch { FileNotFoundException}
+        catch ( FileNotFoundException)
         {
             Console.WriteLine($"soubor {'soubor'} neexistuje");
         }
     
-                catch { Exception ex}
+        catch ( Exception ex)
         {
             Console.WriteLine($"chyba při zpracování souboru: {ex.Message}");
         }
@@ -58,6 +58,23 @@ class TextAnalyzer : StreamReader;
     public Dictionary<string, int> ziskatfrekvencislov;
     {
         return new Dictionary<string, int>(slova);
+        }
+    public string ziskatslovasoddelovacem()
+    {
+        BaseStream.Seek(0, SeekOrigin.Begin);
+        string obsah = ReadToEnd();
+
+        var radky = obsah.Split(new[] { " ", "\r", "\n", "\n" }, StringSplitOptions.None);
+        var sb = new System.Text.StringBuilder();
+        
+        foreach (var r in radky)
+        { 
+            var slovavradku = radek.Split(new[] { ' ','\r'), StringSplitOptions.RemoveEmptyEntries);
+            sb.AppendLine(string.Join(" ", slovavradku));
+
+        }
+        return sb.ToString();
+
     }
     
 }
