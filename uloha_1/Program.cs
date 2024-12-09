@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 //tabulka kde cesta, atd
 
-class program
+class Program
 {
     static string[,] Vytvoritpole()
     { 
