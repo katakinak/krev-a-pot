@@ -108,9 +108,49 @@ class Program
 
     static void Main()
     {
-        string[,]polehry = Vytvoritpole();
-        Console.WriteLine("obsah pole: ");
-        Console.WriteLine(Vypispole(polehry));
+        int n = int.Parse(Console.ReadLine());
+        int m = int.Parse(Console.ReadLine());
+        List<(int x, int y, int t)> laviny = new List<(int, int, int)>();
+
+        for (int i = 0; i < m; i++)
+        {
+            var data = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            laviny.Add((data[0], data[1], data[2]));
+        }
+
+        int k = int.Parse(Console.ReadLine());
+        List<(int dx, int dy)> tahy = new List<(int, int)>();
+
+        for (int i = 0; i < k; i++)
+        {
+            var data = Console.ReadLine().Split().Select(int.Parse).ToArray();
+            tahy.Add((data[0], data[1]));
+        }
+
+        // Inicializace šachovnice (pro ilustraci)
+        string[,] sachovnice = VytvoritPole(n);
+        foreach (var lavina in laviny)
+        {
+            sachovnice[lavina.x, lavina.y] = "hora";
+        }
+
+        // Najít nejkratší cestu
+        var (delka, cesta) = NajdiCestu(n, laviny, tahy);
+
+        // Výstup
+        if (delka == -1)
+        {
+            Console.WriteLine("-1");
+        }
+        else
+        {
+            Console.WriteLine(delka);
+            Console.WriteLine(string.Join(" ", cesta.Select(p => $"[{p.Item1},{p.Item2}]")));
+        }
+
+        // Výpis šachovnice
+        Console.WriteLine("Šachovnice:");
+        Console.WriteLine(VypisPole(sachovnice));
     }
 }
 
