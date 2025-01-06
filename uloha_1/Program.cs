@@ -79,7 +79,28 @@ class Program
             if (navstiveno.Contains(x, y, time))
             {
                 continue ;
+            }    
+
+            navstiveno.Add((x,y, time));
+            foreach (var(dx,dy) in tahy)
+            {
+                int novyX = x + dx;
+                int novyY = y + dy;
+                if novyX >= 0 && novyX < n && novyY >= 0 && novyY <n)
+                {
+                    bool jeBlokovanyTah = laviny.Any(
+                        lavina => lavina.x == novyX && lavina.y == novyY && lavina.t == time +1
+                    );
+                    if (!jeBlokovanyTah)
+                    {
+                        var novaCesta = new List<(int, int)>(path);
+                        novaCesta.Add((novyX, novyY));
+                        fronta.Enqueue((novyX, novyY, time + 1, novaCesta));
+                    }
+                }
             }
+        }
+        return (-1, null);
     }
 
 
