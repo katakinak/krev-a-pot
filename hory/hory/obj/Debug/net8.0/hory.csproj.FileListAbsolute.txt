@@ -1,0 +1,15 @@
+D:\git_projekty\krev-a-pot-main\hory\hory\bin\Debug\net8.0\hory.exe
+D:\git_projekty\krev-a-pot-main\hory\hory\bin\Debug\net8.0\hory.deps.json
+D:\git_projekty\krev-a-pot-main\hory\hory\bin\Debug\net8.0\hory.runtimeconfig.json
+D:\git_projekty\krev-a-pot-main\hory\hory\bin\Debug\net8.0\hory.dll
+D:\git_projekty\krev-a-pot-main\hory\hory\bin\Debug\net8.0\hory.pdb
+D:\git_projekty\krev-a-pot-main\hory\hory\obj\Debug\net8.0\hory.GeneratedMSBuildEditorConfig.editorconfig
+D:\git_projekty\krev-a-pot-main\hory\hory\obj\Debug\net8.0\hory.AssemblyInfoInputs.cache
+D:\git_projekty\krev-a-pot-main\hory\hory\obj\Debug\net8.0\hory.AssemblyInfo.cs
+D:\git_projekty\krev-a-pot-main\hory\hory\obj\Debug\net8.0\hory.csproj.CoreCompileInputs.cache
+D:\git_projekty\krev-a-pot-main\hory\hory\obj\Debug\net8.0\hory.sourcelink.json
+D:\git_projekty\krev-a-pot-main\hory\hory\obj\Debug\net8.0\hory.dll
+D:\git_projekty\krev-a-pot-main\hory\hory\obj\Debug\net8.0\refint\hory.dll
+D:\git_projekty\krev-a-pot-main\hory\hory\obj\Debug\net8.0\hory.pdb
+D:\git_projekty\krev-a-pot-main\hory\hory\obj\Debug\net8.0\hory.genruntimeconfig.cache
+D:\git_projekty\krev-a-pot-main\hory\hory\obj\Debug\net8.0\ref\hory.dll
