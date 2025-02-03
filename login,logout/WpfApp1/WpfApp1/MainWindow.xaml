@@ -1,0 +1,16 @@
+<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="User Profile" Height="400" Width="400" ResizeMode="NoResize">
+    <Grid>
+        <TextBlock Text="Welcome," FontSize="16" FontWeight="Bold" Margin="10,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBlock x:Name="UsernameText" FontSize="16" FontWeight="Bold" Margin="100,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+
+        <TextBlock Text="Favorite Quote:" Margin="10,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <TextBlock x:Name="FavoriteQuoteText" Margin="120,50,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="250" TextWrapping="Wrap"/>
+
+        <Image x:Name="ProfileImage" Margin="10,102,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="100" Height="100"/>
+
+        <Button x:Name="LogoutButton" Content="Logout" Margin="10,250,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="100" Click="LogoutButton_Click"/>
+    </Grid>
+</Window>
