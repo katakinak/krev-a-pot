@@ -1,0 +1,14 @@
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\mince\mince\bin\Debug\net8.0\mince.exe
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\mince\mince\bin\Debug\net8.0\mince.deps.json
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\mince\mince\bin\Debug\net8.0\mince.runtimeconfig.json
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\mince\mince\bin\Debug\net8.0\mince.dll
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\mince\mince\bin\Debug\net8.0\mince.pdb
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\mince\mince\obj\Debug\net8.0\mince.GeneratedMSBuildEditorConfig.editorconfig
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\mince\mince\obj\Debug\net8.0\mince.AssemblyInfoInputs.cache
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\mince\mince\obj\Debug\net8.0\mince.AssemblyInfo.cs
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\mince\mince\obj\Debug\net8.0\mince.csproj.CoreCompileInputs.cache
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\mince\mince\obj\Debug\net8.0\mince.dll
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\mince\mince\obj\Debug\net8.0\refint\mince.dll
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\mince\mince\obj\Debug\net8.0\mince.pdb
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\mince\mince\obj\Debug\net8.0\mince.genruntimeconfig.cache
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\mince\mince\obj\Debug\net8.0\ref\mince.dll
