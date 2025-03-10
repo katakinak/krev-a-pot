@@ -1,0 +1,14 @@
+﻿<Window x:Class="Pexeso2D.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="2D Pexeso" Height="500" Width="500">
+    <Grid>
+        <!-- Horní panel pro čas a skóre -->
+        <StackPanel Orientation="Horizontal" VerticalAlignment="top" Margin="1">
+            <TextBlock Name="ScoreText" Text="Skóre: 0" Margin="10" FontSize="16"/>
+            <TextBlock Name="TimeText" Text="Čas: 0s" Margin="10" FontSize="16"/>
+        </StackPanel>
+
+        <UniformGrid Name="GameGrid" Rows="4" Columns="4" Margin="10,40,10,10" />
+    </Grid>
+</Window>
