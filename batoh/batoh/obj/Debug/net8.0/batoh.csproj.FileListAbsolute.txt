@@ -1,0 +1,14 @@
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\batoh\batoh\bin\Debug\net8.0\batoh.exe
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\batoh\batoh\bin\Debug\net8.0\batoh.deps.json
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\batoh\batoh\bin\Debug\net8.0\batoh.runtimeconfig.json
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\batoh\batoh\bin\Debug\net8.0\batoh.dll
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\batoh\batoh\bin\Debug\net8.0\batoh.pdb
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\batoh\batoh\obj\Debug\net8.0\batoh.GeneratedMSBuildEditorConfig.editorconfig
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\batoh\batoh\obj\Debug\net8.0\batoh.AssemblyInfoInputs.cache
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\batoh\batoh\obj\Debug\net8.0\batoh.AssemblyInfo.cs
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\batoh\batoh\obj\Debug\net8.0\batoh.csproj.CoreCompileInputs.cache
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\batoh\batoh\obj\Debug\net8.0\batoh.dll
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\batoh\batoh\obj\Debug\net8.0\refint\batoh.dll
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\batoh\batoh\obj\Debug\net8.0\batoh.pdb
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\batoh\batoh\obj\Debug\net8.0\batoh.genruntimeconfig.cache
+C:\gympl 2024_25\krev-a-pot-main\krev-a-pot-main\batoh\batoh\obj\Debug\net8.0\ref\batoh.dll
